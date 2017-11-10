@@ -1,5 +1,5 @@
 def hello():
-    return('hello')
+    print('hello')
 
 
 def sum_str(str1, str2):
