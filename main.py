@@ -30,14 +30,21 @@
 # carro1.hello()
 # carro1.show()
 
-from bank import Account
+# from bank import Account
 
-acc = Account('2345-5',300)
-print('Account number: ', acc.number)
-print('$', acc.total)
-acc.deposit(50)
-print(acc.total)
-acc.withdraw(50)
-print(acc.getTotal())
+# acc = Account('2345-5',300)
+# print('Account number: ', acc.number)
+# print('$', acc.total)
+# acc.deposit(50)
+# print(acc.total)
+# acc.withdraw(50)
+# print(acc.getTotal())
+
+from bank import Account1
+
+acc1 = Account1('854-9',500)
+print(acc1.getTotal())
+
+
 
 
