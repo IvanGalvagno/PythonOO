@@ -54,8 +54,8 @@ from bank import *
 # acc.__class__
 # type(acc)
 
-acc1 = Bank1Account('123-0',0)
-acc2 = Bank2Account('456-0',0)
+acc1 = Bank1Account('123-0')
+acc2 = Bank2Account('456-0','xpto')
 acc1.deposit(100)
 acc2.deposit(100)
 acc1.withdraw(50)
