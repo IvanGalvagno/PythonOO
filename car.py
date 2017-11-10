@@ -10,5 +10,12 @@ class Car1():
         self.name = name
         self.maker = maker
         self.year = year
+
+    def start(self):
+        print(self.name + ' Started ' + self.name)
         
-        
+    #Metodo Estatico
+    @staticmethod
+    def hello():
+        print('Hello from car')
+    

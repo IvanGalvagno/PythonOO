@@ -19,10 +19,12 @@
 # carro2.maker = 'Mercedez-Benz'
 # print(carro2.maker)
 
-# from car import Car1
+from car import Car1
 
-# carro1 = Car1('GTR','Nissan',2019)
-# print(carro1.name)
-# print(carro1.maker)
-# print(carro1.year)
-# print(carro1.name, carro1.year)
+carro1 = Car1('GTR','Nissan',2019)
+print(carro1.name)
+print(carro1.maker)
+print(carro1.year)
+print(carro1.name, carro1.year)
+carro1.start()
+carro1.hello()
