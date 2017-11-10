@@ -1,5 +1,4 @@
-from calc import calc_sub
+import pythonOOexample.math.calc
 
-
-calc_sub(2,1)
+pythonOOexample.math.calc.calc_sum(5,7)
 
