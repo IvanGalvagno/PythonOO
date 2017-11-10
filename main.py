@@ -40,11 +40,27 @@
 # acc.withdraw(50)
 # print(acc.getTotal())
 
-from bank import Account1
+# from bank import Account1
 
-acc1 = Account1('854-9',500)
+# acc1 = Account1('854-9',500)
+# print(acc1.getTotal())
+
+# acc = Account1(222)
+# acc.__class__
+# type(acc)
+
+from bank import *
+
+# acc.__class__
+# type(acc)
+
+acc1 = Bank1Account('123-0',0)
+acc2 = Bank2Account('456-0',0)
+acc1.deposit(100)
+acc2.deposit(100)
+acc1.withdraw(50)
+acc2.withdraw(50)
 print(acc1.getTotal())
-
-
+print(acc2.getTotal())
 
 
