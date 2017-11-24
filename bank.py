@@ -63,3 +63,6 @@ class Bank2Account(Bank1Account):
         #Cobra Taxa maior
         self._Bank1Account__total -= 2
 
+
+class TesteCommitPush(object):
+    print("Hello Commit")
